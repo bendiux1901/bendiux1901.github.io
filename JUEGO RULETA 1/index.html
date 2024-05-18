@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Ruleta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contador-gemas">
+        <img src="gema.png" alt="Gema"> <span id="gemas">30</span>
+    </div>
+    <div class="inicio-sesion" onclick="iniciarSesion()">Bendiux Connect</div>
+    <div class="ruleta">
+        <img src="ruleta.png" alt="Ruleta" class="ruleta-img">
+    </div>
+    <button id="girarBtn">¡Girar!</button>
+    <div class="coleccion" onclick="toggleColeccion()">COLECCIÓN</div>
+    <div id="coleccionContainer" class="coleccion-container"></div>
+    <div id="resultado" class="resultado"></div>
+    <script src="script.js"></script>
+</body>
+</html>
